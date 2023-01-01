@@ -1,16 +1,18 @@
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import TableList from "../../components/tableList/TableList";
+import Menu from "../../components/Menu/Menu";
 
 const CreatePage = () => {
-  return(
+  return (
     <>
       <Helmet>
         <title>Home | Mano</title>
       </Helmet>
       <>
-        <TableList/>
+        <Menu />
+        <TableList />
       </>
     </>
-  )
-}
+  );
+};
 export default CreatePage;
