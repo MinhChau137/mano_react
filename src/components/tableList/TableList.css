@@ -1,0 +1,51 @@
+.display{
+  border: 1px solid black;
+  margin: 50px 50px 20px 50px;
+  padding: 20px;
+}
+
+.container .display h1{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #043456;
+  color: white;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+table tr, th, td {
+  border: 1px solid black;
+}
+.container .display table {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.container .display table tr, th, td {
+  border: 1px solid black;
+}
+
+.container .display table button.add {
+  position: absolute;
+  bottom: 0;
+}
+
+.display .SFCs .idService {
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.display .SFCs .idService button {
+  background-color: white;
+  border: none;
+}
+.display .SFCs .idService p{
+  margin: 0;
+}
